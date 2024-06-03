@@ -8,12 +8,14 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <Image
+        alt="hero image for desktop"
         src="/hero-desktop.png"
         width={1000}
         height={760}
         className="hidden md:block"
       />
       <Image
+        alt="hero image for mobile"
         src="/hero-mobile.png"
         width={560}
         height={620}
